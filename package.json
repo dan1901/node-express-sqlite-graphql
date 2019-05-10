@@ -1,0 +1,23 @@
+{
+  "name": "api-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.0",
+    "http-errors": "~1.6.3",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "pug": "^2.0.3",
+    "sequelize": "^5.8.5",
+    "sqlite-async": "^1.0.11",
+    "sqlite3": "^4.0.7"
+  }
+}
