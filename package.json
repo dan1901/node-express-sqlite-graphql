@@ -7,6 +7,9 @@
   },
   "dependencies": {
     "app-module-path": "^2.2.0",
+    "better-sqlite3-helper": "^2.0.2",
+    "body-parser": "^1.19.0",
+    "body-parser-graphql": "^1.1.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
@@ -16,8 +19,20 @@
     "moment": "^2.24.0",
     "morgan": "~1.9.1",
     "pug": "^2.0.3",
-    "sequelize": "^5.8.5",
     "sqlite-async": "^1.0.11",
     "sqlite3": "^4.0.7"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan1901/node-express-sqlite-graphql.git"
+  },
+  "author": "K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan1901/node-express-sqlite-graphql/issues"
+  },
+  "homepage": "https://github.com/dan1901/node-express-sqlite-graphql#readme"
 }
