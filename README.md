@@ -3,7 +3,7 @@
 ##### 프레임워크는 express/koa 등 node 환경에서 동작한다면 어떤것을 골라도 좋습니다.
 ##### 작업 중 스펙에 관련된 모호한 부분이 생긴다면 즉시 이야기 해주세요. 
 ##### 같은 데이터 모델에 대해 RESTful과 GraphQL을 **동시**에 사용하여 API 레이어를 구현합니다. RESTful의 규칙을 최대한 지켜주세요.
-#####RESTful Endpoint(n개)와 GraphQL Endpoint(1개; /graphql)를 구현하세요.
+##### RESTful Endpoint(n개)와 GraphQL Endpoint(1개; /graphql)를 구현하세요.
 ##### DB는 RDB/NoSQL 어떤 것을 이용해도 됩니다.
 ##### firebase처럼 serverless DB를 사용하여도 됩니다.
 
