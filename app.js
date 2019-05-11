@@ -2,22 +2,20 @@ const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
 const graphqlHTTP = require('express-graphql');
-// const Graphql = require('graphql');
-const {graphql, buildSchema} = require('graphql');
+const {buildSchema} = require('graphql');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const sqlite3 = require('sqlite3').verbose();
 const bodyParser = require('body-parser');
 const bodyParserGQL = require('body-parser-graphql');
 const indexRouter = require('./routes/index');
 const DB = require('better-sqlite3-helper');
 
 DB({
-    path: 'data', // this is the default
-    memory: false, // create a db only in memory
-    readonly: false, // read only
-    fileMustExist: false, // throw error if database not exists
-    WAL: true, // automatically enable 'PRAGMA journal_mode = WAL'
+    path: 'data',
+    memory: false,
+    readonly: false,
+    fileMustExist: false,
+    WAL: true,
 })
 const app = express();
 
